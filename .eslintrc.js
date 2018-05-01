@@ -2,6 +2,9 @@ module.exports = {
   root: true,
   'extends': [
     'plugin:vue/essential',
-    '@vue/airbnb'
-  ]
-}
+    '@vue/airbnb',
+  ],
+  'rules': {
+    'linebreak-style': 'off',
+  },
+};
